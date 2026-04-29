@@ -6,7 +6,7 @@ def mean(numbers, weights=None):
         return sum(n * w for n, w in zip(numbers, weights)) / sum(weights)
 
 def median(numbers):
-    """Calculate the median of a list of numbers."""
+    """Calculate the median of a list of numbers. blah de blah"""
     n = len(numbers)
     mid = n // 2
 
